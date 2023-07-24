@@ -2,7 +2,7 @@
 Commands used:
 
 1. Bootstrap state bucket
-`gsutil mb -p carved-rock-prod gs://carved-rock-state-bucket`
+`gsutil mb -p terraform-prod-393722 gs://carved-rock-state-bucket`
 
 1. Run init
 `terraform init`
