@@ -7,7 +7,7 @@ terraform {
 }
 
 provider "google" {
-  project = "terraform-prod-393722"
+  project = "terraform-prod"
   region  = "us-east1"
   zone    = "us-east1-b"
 }

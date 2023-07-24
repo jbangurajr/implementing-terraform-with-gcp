@@ -27,6 +27,6 @@ resource "random_pet" "suffix" {
 }
 
 resource "google_project_service" "gcp_services" {
-  project = "terraform-prod-393722"
+  project = "terraform-prod"
   service = "run.googleapis.com"
 }
