@@ -6,7 +6,7 @@ resource "google_compute_instance" "this" {
 
   boot_disk {
     initialize_params {
-      image = "debian-cloud/debian-9"
+      image = "debian-cloud/debian-10"
     }
   }
 
@@ -32,7 +32,7 @@ resource "google_compute_instance" "beta_this" {
 
   boot_disk {
     initialize_params {
-      image = "debian-cloud/debian-9"
+      image = "debian-cloud/debian-10"
     }
   }
 
